@@ -22,3 +22,10 @@
         padding: 3em !important;
     }
 }
+/* 在中等螢幕尺寸時，將 .port-item 的寬度設為 100% */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .port-item {
+        width: 100%;
+        font-size: 12px; /* 調整字體大小為16像素，可以根據需要進行調整 */
+    }
+}
